@@ -90,7 +90,6 @@ export default function Header(props) {
             name="q"
             aria-label="Search through site content"
             placeholder="Search..."
-            autoComplete={false}
           />
         </LeftPanel>
         <RightPanel>
