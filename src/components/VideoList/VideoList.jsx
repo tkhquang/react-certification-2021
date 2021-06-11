@@ -1,40 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import styled from 'styled-components';
 
 import Video from './Video';
-
-const StyledVideoList = styled.section`
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 1rem;
-
-  @media only screen and (min-width: 480px) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  @media only screen and (min-width: 720px) {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  @media only screen and (min-width: 960px) {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-`;
+import { StyledVideoList } from './VideoList.styled';
 
 export default function VideoList() {
-  const [data, setData] = useState([]);
+  const [videos, setVideos] = useState([]);
 
   const getData = async () => {
-    const response = await fetch('/data.json', {
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-    });
-    const json = await response.json();
-    setData(json.items);
-    return Promise.resolve(json.items);
+    try {
+      const response = await fetch('/data.json', {
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+      });
+      const json = await response.json();
+      setVideos(json.items);
+    } catch (error) {
+      return Promise.reject(error);
+    }
   };
 
   useEffect(() => {
@@ -43,7 +27,7 @@ export default function VideoList() {
 
   return (
     <StyledVideoList>
-      {data.map(({ etag, snippet }) => {
+      {videos.map(({ etag, snippet }) => {
         return <Video key={etag} {...snippet} />;
       })}
     </StyledVideoList>
