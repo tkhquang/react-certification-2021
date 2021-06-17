@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const StyledVideo = styled.div`
   display: flex;
@@ -6,21 +6,15 @@ export const StyledVideo = styled.div`
   align-items: center;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  overflow: hidden;
 `;
 
-export const StyledVideoCover = styled.div`
+export const StyledVideoCover = styled.img`
+  color: grey;
   height: 200px;
   width: 100%;
-  background-color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  ${({ src }) => {
-    return css`
-      background-image: url(${src});
-    `;
-  }}
+  object-fit: cover;
+  background-color: grey;
 `;
 
 export const StyledVideoTitle = styled.div`

@@ -10,7 +10,7 @@ import {
 export default function Video({ title, description, thumbnails }) {
   return (
     <StyledVideo>
-      <StyledVideoCover src={thumbnails.high.url} />
+      <StyledVideoCover src={thumbnails.high.url} alt={title} />
       <StyledVideoTitle>{title}</StyledVideoTitle>
       <StyledVideoDescription>{description}</StyledVideoDescription>
     </StyledVideo>

@@ -5,10 +5,11 @@ exports[`VideoList renders video list correctly 1`] = `
   className="sc-eCApnc drzgxO"
 >
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT jJhotc"
+    <img
+      alt="Wizeline"
+      className="sc-gtsrHT iYnqJp"
       src="https://yt3.ggpht.com/ytc/AAUvwnighSReQlmHl_S_vSfvnWBAG5Cw4A0YxtE0tm5OpQ=s800-c-k-c0xffffffff-no-rj-mo"
     />
     <div
@@ -23,10 +24,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT huBCcT"
+    <img
+      alt="Video Tour | Welcome to Wizeline Guadalajara"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/nmXMgqjQzls/hqdefault.jpg"
     />
     <div
@@ -41,10 +43,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT hxdQNp"
+    <img
+      alt="Wizeline Guadalajara | Bringing Silicon Valley to Mexico"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/HYyRZiwBWc8/hqdefault.jpg"
     />
     <div
@@ -59,10 +62,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT dYwQvJ"
+    <img
+      alt="Wizeline hace sentir a empleados como en casa"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/Po3VwR_NNGk/hqdefault.jpg"
     />
     <div
@@ -77,10 +81,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT kcBLxo"
+    <img
+      alt="We Are Wizeline"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/7PtYNO6g7eI/hqdefault.jpg"
     />
     <div
@@ -95,10 +100,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT elJSnS"
+    <img
+      alt="Wizeline Thrives in Mexico City"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/YuW0CE_8i1I/hqdefault.jpg"
     />
     <div
@@ -113,10 +119,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT iWQCGY"
+    <img
+      alt="Wizeline"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/CHzlSGRvWPs/hqdefault.jpg"
     />
     <div
@@ -131,10 +138,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT ejpOlX"
+    <img
+      alt="A Day in the Life of an Engineering Manager at Wizeline"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/cjO2fJy8asM/hqdefault.jpg"
     />
     <div
@@ -149,10 +157,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT gdpUec"
+    <img
+      alt="Wizeline Technical Writing Academy | Featuring Eduardo Ocejo"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/zClI9OjgKXM/hqdefault.jpg"
     />
     <div
@@ -167,10 +176,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT eXZIAJ"
+    <img
+      alt="Silicon Valley en México"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/8bz9R61oY5o/hqdefault.jpg"
     />
     <div
@@ -185,10 +195,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT juAvXa"
+    <img
+      alt="Why Wizeline? featuring Juan Pablo Villa in Mexico City"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/7dJFraOqcoQ/hqdefault.jpg"
     />
     <div
@@ -203,10 +214,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT deNnnR"
+    <img
+      alt="Wizeline&#39;s 2020 Year in Review"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/w-Qwc_XJrWc/hqdefault.jpg"
     />
     <div
@@ -221,10 +233,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT jeYoo"
+    <img
+      alt="Why Wizeline? featuring Hugo Lopez in Mexico City"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/rjir_cHTl5w/hqdefault.jpg"
     />
     <div
@@ -239,10 +252,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT jhuVAR"
+    <img
+      alt="Why Wizeline? (We&#39;re Hiring in Mexico!)"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/DcFK1x3NHGY/hqdefault.jpg"
     />
     <div
@@ -257,10 +271,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT iLKAIQ"
+    <img
+      alt="Why Wizeline? featuring Oswaldo Herrera in Mexico City"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/3BzYWAqZgFw/hqdefault.jpg"
     />
     <div
@@ -275,10 +290,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT edHzGM"
+    <img
+      alt="Caso de Éxito AWS: Wizeline [Spanish]"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/3KVFmT-Tp2w/hqdefault.jpg"
     />
     <div
@@ -293,10 +309,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT hqEzhh"
+    <img
+      alt="Wizeline&#39;s 2019 Year in Review"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/aKuPmY2m1Ro/hqdefault.jpg"
     />
     <div
@@ -311,10 +328,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT eGnJDA"
+    <img
+      alt="[1 of 2] Wizeline CEO shares career lessons from Google"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/24sTHUyWhRM/hqdefault.jpg"
     />
     <div
@@ -329,10 +347,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT gGRWrM"
+    <img
+      alt="Wizeline Data Engineering featuring Tania Reyes"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/IxGc1gSqB3A/hqdefault.jpg"
     />
     <div
@@ -347,10 +366,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT fzIdHa"
+    <img
+      alt="Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/NP1gAnbeNno/hqdefault.jpg"
     />
     <div
@@ -365,10 +385,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT iFqIIm"
+    <img
+      alt="Miriam Godinez | Women in Leadership at Wizeline"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/F6Krwu6lUc8/hqdefault.jpg"
     />
     <div
@@ -383,10 +404,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT fpzGAs"
+    <img
+      alt="Welcome Back to Wizeline Vietnam | Extended Version"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/RFq7gfvhtCk/hqdefault.jpg"
     />
     <div
@@ -401,10 +423,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT eaKYKk"
+    <img
+      alt="How does Wizeline work?"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/E1Vq_A3WKK8/hqdefault.jpg"
     />
     <div
@@ -419,10 +442,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT foduOy"
+    <img
+      alt="12 Wishes from Wizeline | Happy Holidays 2019"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/ZmkslANDz0Q/hqdefault.jpg"
     />
     <div
@@ -437,10 +461,11 @@ exports[`VideoList renders video list correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-bdnxRM dhSMzM"
+    className="sc-bdnxRM hkTMPt"
   >
-    <div
-      className="sc-gtsrHT kpjXmk"
+    <img
+      alt="Why Wizeline?"
+      className="sc-gtsrHT iYnqJp"
       src="https://i.ytimg.com/vi/Nss3EmTDD3s/hqdefault.jpg"
     />
     <div
