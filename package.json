@@ -25,7 +25,12 @@
     "lint:fix": "eslint ./src --ext .js,.jsx --fix"
   },
   "jest": {
-    "coverageReporters": ["json"]
+    "coverageReporters": [
+      "json"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/components/**/*.{js,jsx}"
+    ]
   },
   "devDependencies": {
     "eslint-config-airbnb": "^18.2.0",
