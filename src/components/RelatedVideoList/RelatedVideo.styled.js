@@ -1,19 +1,21 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const StyledRelatedVideo = styled.div`
+export const StyledRelatedVideo = styled(Link)`
   display: flex;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
+  color: inherit;
+  text-decoration: inherit;
 `;
 
 export const StyledRelatedVideoCover = styled.img`
   color: grey;
-  height: 90px;
-  width: 120px;
-  min-height: 90px;
-  min-width: 120px;
+  height: auto;
+  width: 40%;
+  min-width: 40%;
   object-fit: cover;
   background-color: grey;
 `;

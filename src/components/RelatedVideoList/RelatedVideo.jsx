@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import {
   StyledRelatedVideo,
@@ -9,10 +8,10 @@ import {
 
 const RelatedVideo = ({ title, thumbnails, videoId }) => {
   return (
-    <Link as={StyledRelatedVideo} to={`/${videoId}`}>
+    <StyledRelatedVideo to={`/${videoId}`}>
       <StyledRelatedVideoCover src={thumbnails.medium.url} alt={title} />
       <StyledRelatedVideoTitle>{title}</StyledRelatedVideoTitle>
-    </Link>
+    </StyledRelatedVideo>
   );
 };
 

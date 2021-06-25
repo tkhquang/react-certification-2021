@@ -2,19 +2,22 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 
 import { YoutubeDataContext } from '../../contexts';
+import { TestAppContainer } from '../../test';
 import Header from './Header';
 
 describe('Header', () => {
   beforeEach(() => {
     render(
-      <YoutubeDataContext.Provider
-        value={{
-          videos: [],
-          setVideos: () => {},
-        }}
-      >
-        <Header />
-      </YoutubeDataContext.Provider>
+      <TestAppContainer>
+        <YoutubeDataContext.Provider
+          value={{
+            videos: [],
+            setVideos: () => {},
+          }}
+        >
+          <Header />
+        </YoutubeDataContext.Provider>
+      </TestAppContainer>
     );
   });
 

@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RelatedVideoList renders video list correctly 1`] = `
+<div
+  className="sc-hKFxyN jiJQeA"
+>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/undefined"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline"
+      className="sc-gtsrHT dzxLSG"
+      src="https://yt3.ggpht.com/ytc/AAUvwnighSReQlmHl_S_vSfvnWBAG5Cw4A0YxtE0tm5OpQ=s240-c-k-c0xffffffff-no-rj-mo"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/nmXMgqjQzls"
+    onClick={[Function]}
+  >
+    <img
+      alt="Video Tour | Welcome to Wizeline Guadalajara"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/nmXMgqjQzls/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Video Tour | Welcome to Wizeline Guadalajara
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/HYyRZiwBWc8"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline Guadalajara | Bringing Silicon Valley to Mexico"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/HYyRZiwBWc8/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline Guadalajara | Bringing Silicon Valley to Mexico
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/Po3VwR_NNGk"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline hace sentir a empleados como en casa"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/Po3VwR_NNGk/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline hace sentir a empleados como en casa
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/7PtYNO6g7eI"
+    onClick={[Function]}
+  >
+    <img
+      alt="We Are Wizeline"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/7PtYNO6g7eI/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      We Are Wizeline
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/YuW0CE_8i1I"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline Thrives in Mexico City"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/YuW0CE_8i1I/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline Thrives in Mexico City
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/CHzlSGRvWPs"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/CHzlSGRvWPs/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/cjO2fJy8asM"
+    onClick={[Function]}
+  >
+    <img
+      alt="A Day in the Life of an Engineering Manager at Wizeline"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/cjO2fJy8asM/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      A Day in the Life of an Engineering Manager at Wizeline
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/zClI9OjgKXM"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline Technical Writing Academy | Featuring Eduardo Ocejo"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/zClI9OjgKXM/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline Technical Writing Academy | Featuring Eduardo Ocejo
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/8bz9R61oY5o"
+    onClick={[Function]}
+  >
+    <img
+      alt="Silicon Valley en México"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/8bz9R61oY5o/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Silicon Valley en México
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/7dJFraOqcoQ"
+    onClick={[Function]}
+  >
+    <img
+      alt="Why Wizeline? featuring Juan Pablo Villa in Mexico City"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/7dJFraOqcoQ/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Why Wizeline? featuring Juan Pablo Villa in Mexico City
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/w-Qwc_XJrWc"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline&#39;s 2020 Year in Review"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/w-Qwc_XJrWc/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline&#39;s 2020 Year in Review
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/rjir_cHTl5w"
+    onClick={[Function]}
+  >
+    <img
+      alt="Why Wizeline? featuring Hugo Lopez in Mexico City"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/rjir_cHTl5w/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Why Wizeline? featuring Hugo Lopez in Mexico City
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/DcFK1x3NHGY"
+    onClick={[Function]}
+  >
+    <img
+      alt="Why Wizeline? (We&#39;re Hiring in Mexico!)"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/DcFK1x3NHGY/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Why Wizeline? (We&#39;re Hiring in Mexico!)
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/3BzYWAqZgFw"
+    onClick={[Function]}
+  >
+    <img
+      alt="Why Wizeline? featuring Oswaldo Herrera in Mexico City"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/3BzYWAqZgFw/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Why Wizeline? featuring Oswaldo Herrera in Mexico City
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/3KVFmT-Tp2w"
+    onClick={[Function]}
+  >
+    <img
+      alt="Caso de Éxito AWS: Wizeline [Spanish]"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/3KVFmT-Tp2w/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Caso de Éxito AWS: Wizeline [Spanish]
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/aKuPmY2m1Ro"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline&#39;s 2019 Year in Review"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/aKuPmY2m1Ro/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline&#39;s 2019 Year in Review
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/24sTHUyWhRM"
+    onClick={[Function]}
+  >
+    <img
+      alt="[1 of 2] Wizeline CEO shares career lessons from Google"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/24sTHUyWhRM/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      [1 of 2] Wizeline CEO shares career lessons from Google
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/IxGc1gSqB3A"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline Data Engineering featuring Tania Reyes"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/IxGc1gSqB3A/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline Data Engineering featuring Tania Reyes
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/NP1gAnbeNno"
+    onClick={[Function]}
+  >
+    <img
+      alt="Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/NP1gAnbeNno/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/F6Krwu6lUc8"
+    onClick={[Function]}
+  >
+    <img
+      alt="Miriam Godinez | Women in Leadership at Wizeline"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/F6Krwu6lUc8/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Miriam Godinez | Women in Leadership at Wizeline
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/RFq7gfvhtCk"
+    onClick={[Function]}
+  >
+    <img
+      alt="Welcome Back to Wizeline Vietnam | Extended Version"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/RFq7gfvhtCk/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Welcome Back to Wizeline Vietnam | Extended Version
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/E1Vq_A3WKK8"
+    onClick={[Function]}
+  >
+    <img
+      alt="How does Wizeline work?"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/E1Vq_A3WKK8/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      How does Wizeline work?
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/ZmkslANDz0Q"
+    onClick={[Function]}
+  >
+    <img
+      alt="12 Wishes from Wizeline | Happy Holidays 2019"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/ZmkslANDz0Q/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      12 Wishes from Wizeline | Happy Holidays 2019
+    </div>
+  </a>
+  <a
+    className="sc-bdnxRM gwlaPc"
+    href="/Nss3EmTDD3s"
+    onClick={[Function]}
+  >
+    <img
+      alt="Why Wizeline?"
+      className="sc-gtsrHT dzxLSG"
+      src="https://i.ytimg.com/vi/Nss3EmTDD3s/mqdefault.jpg"
+    />
+    <div
+      className="sc-dlnjwi bsqtGq"
+    >
+      Why Wizeline?
+    </div>
+  </a>
+</div>
+`;

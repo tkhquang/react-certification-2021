@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const StyledVideo = styled.div`
+export const StyledVideo = styled(Link)`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +9,8 @@ export const StyledVideo = styled.div`
   border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
+  color: inherit;
+  text-decoration: inherit;
 `;
 
 export const StyledVideoCover = styled.img`
