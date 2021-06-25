@@ -1,11 +1,11 @@
-import React, { useRef, useContext, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
+import { useYoutubeData } from '../../hooks';
 import ToggleInput from '../ToggleInput';
 import UserAvatar from '../UserAvatar';
 import SearchInput from '../SearchInput';
 
-import { YoutubeDataContext } from '../../contexts';
-import { youtube } from '../../api';
 import {
   StyledHeader,
   StyledContainer,
@@ -14,16 +14,16 @@ import {
 } from './Header.styled';
 
 export default function Header(props) {
-  const { setVideos } = useContext(YoutubeDataContext);
-  const queryRef = useRef('Wizeline');
+  const { pathname } = useLocation();
+  const { search } = useYoutubeData();
+  const [query, setQuery] = useState('Wizeline');
 
   const doSearch = useCallback(() => {
-    const query = queryRef.current;
-    youtube.search({ query }).then(setVideos);
-  }, [setVideos]);
+    search({ query });
+  }, [search, query]);
 
   const onSearchInputChange = (e) => {
-    queryRef.current = e.target.value;
+    setQuery(e.target.value);
   };
 
   const onSubmit = useCallback(
@@ -35,8 +35,10 @@ export default function Header(props) {
   );
 
   useEffect(() => {
-    doSearch();
-  }, [doSearch]);
+    if (pathname === '/') {
+      doSearch();
+    }
+  }, [doSearch, pathname]);
 
   return (
     <StyledHeader {...props}>
@@ -49,6 +51,7 @@ export default function Header(props) {
               aria-label="Search through site content"
               placeholder="Search..."
               onChange={onSearchInputChange}
+              value={query}
             />
           </form>
         </StyledLeftPanel>

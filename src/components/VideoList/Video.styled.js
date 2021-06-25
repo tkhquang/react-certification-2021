@@ -7,6 +7,7 @@ export const StyledVideo = styled.div`
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   overflow: hidden;
+  cursor: pointer;
 `;
 
 export const StyledVideoCover = styled.img`
