@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../../themes';
 
 import HomePage from '../../pages/Home';
+import VideoDetailsPage from '../../pages/VideoDetails';
 import NotFound from '../../pages/NotFound';
 import Layout from '../Layout';
 
@@ -16,6 +17,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <HomePage />
+            </Route>
+            <Route exact path="/:id">
+              <VideoDetailsPage />
             </Route>
             <Route path="*">
               <NotFound />

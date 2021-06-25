@@ -1,30 +1,36 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Container } from '../../components/UI';
-
+import { Container, Spinner } from '../../components/UI';
 import VideoList from '../../components/VideoList';
 
+import { useYoutubeData } from '../../hooks';
+
 function HomePage() {
-  const [videos, setVideos] = useState([]);
+  const { loading, videos, error } = useYoutubeData();
+  console.log(error);
 
-  const getData = async () => {
-    try {
-      const response = await fetch('/data.json', {
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
-      });
-      const json = await response.json();
-      setVideos(json.items);
-    } catch (error) {
-      return Promise.reject(error);
-    }
-  };
+  if (loading) {
+    return (
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flex: 1,
+        }}
+      >
+        <Spinner />
+      </div>
+    );
+  }
 
-  useEffect(() => {
-    getData();
-  }, []);
+  if (error) {
+    return <span>{JSON.stringify(error, null, 2)}</span>;
+  }
+
+  if (!videos) {
+    return null;
+  }
 
   return (
     <Container>

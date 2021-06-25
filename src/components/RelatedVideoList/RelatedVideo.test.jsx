@@ -3,24 +3,23 @@ import { render, screen } from '@testing-library/react';
 
 import { TestAppContainer, mocks } from '../../test';
 
-import Video from './Video';
+import RelatedVideo from './RelatedVideo';
 
-describe('Video', () => {
+describe('RelatedVideo', () => {
   const sampleVideoData = mocks.dummyData.items[0].snippet;
   beforeEach(() => {
     render(
       <TestAppContainer>
-        <Video {...sampleVideoData} />
+        <RelatedVideo {...sampleVideoData} />
       </TestAppContainer>
     );
   });
 
   test('renders with necessary contents', () => {
     expect(screen.getByText('Wizeline')).toBeInTheDocument();
-    expect(screen.getByText(/Wizeline transforms how/)).toBeInTheDocument();
     expect(screen.getByAltText('Wizeline')).toHaveAttribute(
       'src',
-      sampleVideoData.thumbnails.high.url
+      sampleVideoData.thumbnails.medium.url
     );
   });
 });

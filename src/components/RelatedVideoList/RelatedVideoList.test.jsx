@@ -1,17 +1,16 @@
 import React from 'react';
-
 import renderer from 'react-test-renderer';
 
 import { TestAppContainer, mocks } from '../../test';
 
-import VideoList from './VideoList';
+import RelatedVideoList from './RelatedVideoList';
 
-describe('VideoList', () => {
+describe('RelatedVideoList', () => {
   test('renders video list correctly', () => {
     const tree = renderer
       .create(
         <TestAppContainer>
-          <VideoList videos={mocks.dummyData.items} />
+          <RelatedVideoList videos={mocks.dummyData.items} />
         </TestAppContainer>
       )
       .toJSON();

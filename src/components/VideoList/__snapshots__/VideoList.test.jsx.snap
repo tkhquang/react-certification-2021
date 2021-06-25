@@ -4,8 +4,10 @@ exports[`VideoList renders video list correctly 1`] = `
 <section
   className="sc-eCApnc drzgxO"
 >
-  <div
-    className="sc-bdnxRM hkTMPt"
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/undefined"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline"
@@ -22,9 +24,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Wizeline transforms how teams build technology. Its customers accelerate the delivery of innovative products with proven solutions, which combine Wizeline's ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/nmXMgqjQzls"
+    onClick={[Function]}
   >
     <img
       alt="Video Tour | Welcome to Wizeline Guadalajara"
@@ -41,9 +45,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Follow Hector Padilla, Wizeline Director of Engineering, for a lively tour of our office. In 2018, Wizeline opened its stunning new office in Guadalajara, Jalisco, ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/HYyRZiwBWc8"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline Guadalajara | Bringing Silicon Valley to Mexico"
@@ -60,9 +66,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Wizeline continues to offer a Silicon Valley culture in burgeoning innovation hubs like Mexico and Vietnam. In 2018, our Guadalajara team moved into a ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/Po3VwR_NNGk"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline hace sentir a empleados como en casa"
@@ -79,9 +87,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       En el 2014, Bismarck fundó Wizeline, compañía tecnológica que trabaja con los corporativos ofreciendo una plataforma para que desarrollen software de forma ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/7PtYNO6g7eI"
+    onClick={[Function]}
   >
     <img
       alt="We Are Wizeline"
@@ -98,9 +108,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Engineering a better tomorrow. Wizeline is a global software development company that helps its clients solve their biggest challenges with design and ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/YuW0CE_8i1I"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline Thrives in Mexico City"
@@ -117,9 +129,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Our vibrant Mexico City office is home to agile software engineers, talented UX designers, and brilliant data scientists. Learn about the rich history of Mexico City.
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/CHzlSGRvWPs"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline"
@@ -136,9 +150,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       El plan de Wizeline, una empresa de inteligencia artificial, para ayudar a crecer la comunidad de ciencia de datos en CDMX y todo el país, a través de cursos ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/cjO2fJy8asM"
+    onClick={[Function]}
   >
     <img
       alt="A Day in the Life of an Engineering Manager at Wizeline"
@@ -155,9 +171,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Fernando Espinoza shares his experience working as an engineering manager at Wizeline and mentoring other engineers. Learn about Fernando's passions ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/zClI9OjgKXM"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline Technical Writing Academy | Featuring Eduardo Ocejo"
@@ -174,9 +192,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/8bz9R61oY5o"
+    onClick={[Function]}
   >
     <img
       alt="Silicon Valley en México"
@@ -193,9 +213,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Empresas de Silicon Valley buscan establecerse en México por el gran talento que hay en nuestro país. Es una investigación de Roberto Domínguez.
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/7dJFraOqcoQ"
+    onClick={[Function]}
   >
     <img
       alt="Why Wizeline? featuring Juan Pablo Villa in Mexico City"
@@ -212,9 +234,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Juan Pablo, known as Gianpa at Wizeline, is a software engineer in our Mexico City office. Gianpa focuses on Android apps, is an integral part of our culture, ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/w-Qwc_XJrWc"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline&#39;s 2020 Year in Review"
@@ -231,9 +255,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       There's no doubt that 2020 has been an unprecedented year. However, amidst all the chaos, we achieved remarkable growth in various areas of our business.
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/rjir_cHTl5w"
+    onClick={[Function]}
   >
     <img
       alt="Why Wizeline? featuring Hugo Lopez in Mexico City"
@@ -250,9 +276,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/DcFK1x3NHGY"
+    onClick={[Function]}
   >
     <img
       alt="Why Wizeline? (We&#39;re Hiring in Mexico!)"
@@ -269,9 +297,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       A quick look at why people join Wizeline, what motivates us as a team and what it's like to work in our Guadalajara office. Learn more and apply here: ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/3BzYWAqZgFw"
+    onClick={[Function]}
   >
     <img
       alt="Why Wizeline? featuring Oswaldo Herrera in Mexico City"
@@ -288,9 +318,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Oswaldo is a software engineering in Wizeline's Mexico City office. He joined Wizeline because of the camaraderie and deep sense of commitment of our teams.
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/3KVFmT-Tp2w"
+    onClick={[Function]}
   >
     <img
       alt="Caso de Éxito AWS: Wizeline [Spanish]"
@@ -307,9 +339,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Central de socios de APN - https://amzn.to/2S7tIXM Fundada en 2014, Wizeline es una compañía joven e innovadora que nació en la nube para ofrecer soporte ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/aKuPmY2m1Ro"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline&#39;s 2019 Year in Review"
@@ -326,9 +360,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/24sTHUyWhRM"
+    onClick={[Function]}
   >
     <img
       alt="[1 of 2] Wizeline CEO shares career lessons from Google"
@@ -345,9 +381,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Founder & CEO Bismarck Lepe on growth opportunities at Wizeline and his career-path experience as an early Google employee. Join our team!
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/IxGc1gSqB3A"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline Data Engineering featuring Tania Reyes"
@@ -364,9 +402,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Tania discovered her interest in Big Data while working at Wizeline and took Wizeline Academy courses to skill up and join the data team. Now, she works on ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/NP1gAnbeNno"
+    onClick={[Function]}
   >
     <img
       alt="Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)"
@@ -383,9 +423,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       A small but mighty (and growing) team, the Queretaro crew has taken ownership of growing the office and brand, speaking at university events, hosting tech ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/F6Krwu6lUc8"
+    onClick={[Function]}
   >
     <img
       alt="Miriam Godinez | Women in Leadership at Wizeline"
@@ -402,9 +444,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Science and technology always caught Miriam's attention. One of her ultimate goals as a Senior Engineer Manager and Lead from the Mobile Team at Wizeline ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/RFq7gfvhtCk"
+    onClick={[Function]}
   >
     <img
       alt="Welcome Back to Wizeline Vietnam | Extended Version"
@@ -421,9 +465,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Thanks to swift government action, the COVID-19 situation in Vietnam has reached a point where businesses are able to return to work and reopen offices.
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/E1Vq_A3WKK8"
+    onClick={[Function]}
   >
     <img
       alt="How does Wizeline work?"
@@ -440,9 +486,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Wizeline builds teams with a mix of technical and non-technical talent to deliver better products, faster. Learn more about our consulting services: ...
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/ZmkslANDz0Q"
+    onClick={[Function]}
   >
     <img
       alt="12 Wishes from Wizeline | Happy Holidays 2019"
@@ -459,9 +507,11 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       
     </div>
-  </div>
-  <div
-    className="sc-bdnxRM hkTMPt"
+  </a>
+  <a
+    className="sc-bdnxRM gwILbU"
+    href="/Nss3EmTDD3s"
+    onClick={[Function]}
   >
     <img
       alt="Why Wizeline?"
@@ -478,6 +528,6 @@ exports[`VideoList renders video list correctly 1`] = `
     >
       Hear from our employees directly about what excites them about their roles here at Wizeline. Wizeline wants to hire the best and the brightest to accelerate their ...
     </div>
-  </div>
+  </a>
 </section>
 `;
