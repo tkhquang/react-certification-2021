@@ -10,7 +10,7 @@ import {
 export default function Video({ title, description, thumbnails, videoId }) {
   return (
     <StyledVideo to={`/${videoId}`}>
-      <StyledVideoCover src={thumbnails.high.url} alt={title} />
+      <StyledVideoCover src={thumbnails?.high?.url} alt={title} />
       <StyledVideoTitle>{title}</StyledVideoTitle>
       <StyledVideoDescription>{description}</StyledVideoDescription>
     </StyledVideo>

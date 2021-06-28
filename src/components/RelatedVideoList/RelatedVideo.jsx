@@ -9,7 +9,7 @@ import {
 const RelatedVideo = ({ title, thumbnails, videoId }) => {
   return (
     <StyledRelatedVideo to={`/${videoId}`}>
-      <StyledRelatedVideoCover src={thumbnails.medium.url} alt={title} />
+      <StyledRelatedVideoCover src={thumbnails?.medium?.url} alt={title} />
       <StyledRelatedVideoTitle>{title}</StyledRelatedVideoTitle>
     </StyledRelatedVideo>
   );
