@@ -4,17 +4,18 @@ File                         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncove
  App/                        |        0 |      100 |        0 |        0 |                |
   App.jsx                    |        0 |      100 |        0 |        0 |             12 |
   index.js                   |      100 |      100 |      100 |      100 |                |
- DetailedVideo/              |        0 |        0 |        0 |        0 |                |
-  DetailedVideo.jsx          |        0 |        0 |        0 |        0 |... 16,17,18,22 |
-  DetailedVideo.styled.js    |        0 |      100 |      100 |        0 |   3,7,15,27,33 |
+ DetailedVideo/              |      100 |      100 |      100 |      100 |                |
+  DetailedVideo.jsx          |      100 |      100 |      100 |      100 |                |
+  DetailedVideo.styled.js    |      100 |      100 |      100 |      100 |                |
   index.js                   |      100 |      100 |      100 |      100 |                |
- Header/                     |    83.33 |       50 |       60 |    83.33 |                |
-  Header.jsx                 |    78.57 |       50 |       60 |    78.57 |       26,31,32 |
+ Header/                     |      100 |      100 |      100 |      100 |                |
+  Header.jsx                 |      100 |      100 |      100 |      100 |                |
   Header.styled.js           |      100 |      100 |      100 |      100 |                |
+  HeaderSearch.jsx           |      100 |      100 |      100 |      100 |                |
   index.js                   |      100 |      100 |      100 |      100 |                |
- Layout/                     |        0 |      100 |        0 |        0 |                |
-  Layout.jsx                 |        0 |      100 |        0 |        0 |           9,11 |
-  Layout.styled.js           |        0 |      100 |      100 |        0 |              3 |
+ Layout/                     |      100 |      100 |      100 |      100 |                |
+  Layout.jsx                 |      100 |      100 |      100 |      100 |                |
+  Layout.styled.js           |      100 |      100 |      100 |      100 |                |
   index.js                   |      100 |      100 |      100 |      100 |                |
  RelatedVideoList/           |      100 |      100 |      100 |      100 |                |
   RelatedVideo.jsx           |      100 |      100 |      100 |      100 |                |
@@ -31,10 +32,10 @@ File                         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncove
   ToggleInput.jsx            |    85.71 |    66.67 |      100 |    85.71 |             20 |
   ToggleInput.styled.js      |      100 |      100 |      100 |      100 |                |
   index.js                   |      100 |      100 |      100 |      100 |                |
- UI/                         |       50 |        0 |        0 |       50 |                |
+ UI/                         |      100 |      100 |      100 |      100 |                |
   Container.jsx              |      100 |      100 |      100 |      100 |                |
-  Rotate.jsx                 |       50 |        0 |        0 |       50 |          14,21 |
-  Spinner.jsx                |       50 |        0 |        0 |       50 |             20 |
+  Rotate.jsx                 |      100 |      100 |      100 |      100 |                |
+  Spinner.jsx                |      100 |      100 |      100 |      100 |                |
   index.js                   |      100 |      100 |      100 |      100 |                |
  UserAvatar/                 |      100 |      100 |      100 |      100 |                |
   UserAvatar.jsx             |      100 |      100 |      100 |      100 |                |
@@ -47,7 +48,7 @@ File                         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncove
   VideoList.styled.js        |      100 |      100 |      100 |      100 |                |
   index.js                   |      100 |      100 |      100 |      100 |                |
 -----------------------------|----------|----------|----------|----------|----------------|
-All files                    |    71.05 |    42.86 |    61.54 |    71.05 |                |
+All files                    |    97.37 |    91.67 |    96.15 |    97.37 |                |
 -----------------------------|----------|----------|----------|----------|----------------|
 
 Done
