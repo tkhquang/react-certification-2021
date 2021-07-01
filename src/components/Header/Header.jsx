@@ -1,15 +1,15 @@
 import React from 'react';
 
-import ToggleInput from '../ToggleInput';
 import UserAvatar from '../UserAvatar';
 
+import HeaderSearch from './HeaderSearch';
+import HeaderThemeToggle from './HeaderThemeToggle';
 import {
   StyledHeader,
   StyledContainer,
   StyledLeftPanel,
   StyledRightPanel,
 } from './Header.styled';
-import HeaderSearch from './HeaderSearch';
 
 export default function Header(props) {
   return (
@@ -19,7 +19,7 @@ export default function Header(props) {
           <HeaderSearch />
         </StyledLeftPanel>
         <StyledRightPanel>
-          <ToggleInput id="theme-toggle" name="theme-toggle" />
+          <HeaderThemeToggle />
           <UserAvatar />
         </StyledRightPanel>
       </StyledContainer>

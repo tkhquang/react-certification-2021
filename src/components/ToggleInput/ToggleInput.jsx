@@ -1,4 +1,4 @@
-import React, { forwardRef, useState, useCallback } from 'react';
+import React, { forwardRef, useState, useCallback, useEffect } from 'react';
 
 import {
   StyledToggleInputLabel,
@@ -22,6 +22,10 @@ export default forwardRef(function ToggleInput(
     },
     [onChange]
   );
+
+  useEffect(() => {
+    setChecked(defaultChecked);
+  }, [defaultChecked]);
 
   return (
     <StyledToggleInputLabel htmlFor={id}>

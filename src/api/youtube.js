@@ -4,6 +4,7 @@ const searchListByQuery = async ({ query, maxResults = '12' }) => {
   try {
     const response = await fetch(
       `${API}/search?part=snippet&maxResults=${maxResults}&q=${query}&type=video&videoType=any&key=${process.env.REACT_APP_YOUTUBE_DATA_API_KEY}`,
+      // `/data.json`,
       {
         headers: {
           'Content-Type': 'application/json',

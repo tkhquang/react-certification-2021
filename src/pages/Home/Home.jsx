@@ -1,22 +1,21 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+import { YoutubeQueryContext } from '../../contexts';
 import { Container } from '../../components/UI';
+import { useYoutubeData } from '../../hooks';
 import VideoList from '../../components/VideoList';
 
-import { useYoutubeData } from '../../hooks';
-
 function HomePage() {
-  const { videos, search: doSearch } = useYoutubeData();
-  const { pathname, search } = useLocation();
-  const params = new URLSearchParams(search);
-  const q = params.get('q');
+  const { query } = useContext(YoutubeQueryContext);
+  const { videos, search } = useYoutubeData();
+  const { pathname } = useLocation();
 
   useEffect(() => {
     if (pathname === '/') {
-      doSearch({ query: q });
+      search({ query });
     }
-  }, [doSearch, pathname, q]);
+  }, [search, query, pathname]);
 
   if (!videos) {
     return null;
