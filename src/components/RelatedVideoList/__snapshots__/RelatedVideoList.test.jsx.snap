@@ -2,10 +2,10 @@
 
 exports[`RelatedVideoList renders video list correctly 1`] = `
 <div
-  className="sc-hKFxyN jiJQeA"
+  className="sc-hKFxyN jrcDfP"
 >
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/undefined"
     onClick={[Function]}
   >
@@ -15,13 +15,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://yt3.ggpht.com/ytc/AAUvwnighSReQlmHl_S_vSfvnWBAG5Cw4A0YxtE0tm5OpQ=s240-c-k-c0xffffffff-no-rj-mo"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/nmXMgqjQzls"
     onClick={[Function]}
   >
@@ -31,13 +31,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/nmXMgqjQzls/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Video Tour | Welcome to Wizeline Guadalajara
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/HYyRZiwBWc8"
     onClick={[Function]}
   >
@@ -47,13 +47,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/HYyRZiwBWc8/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline Guadalajara | Bringing Silicon Valley to Mexico
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/Po3VwR_NNGk"
     onClick={[Function]}
   >
@@ -63,13 +63,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/Po3VwR_NNGk/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline hace sentir a empleados como en casa
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/7PtYNO6g7eI"
     onClick={[Function]}
   >
@@ -79,13 +79,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/7PtYNO6g7eI/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       We Are Wizeline
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/YuW0CE_8i1I"
     onClick={[Function]}
   >
@@ -95,13 +95,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/YuW0CE_8i1I/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline Thrives in Mexico City
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/CHzlSGRvWPs"
     onClick={[Function]}
   >
@@ -111,13 +111,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/CHzlSGRvWPs/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/cjO2fJy8asM"
     onClick={[Function]}
   >
@@ -127,13 +127,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/cjO2fJy8asM/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       A Day in the Life of an Engineering Manager at Wizeline
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/zClI9OjgKXM"
     onClick={[Function]}
   >
@@ -143,13 +143,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/zClI9OjgKXM/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline Technical Writing Academy | Featuring Eduardo Ocejo
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/8bz9R61oY5o"
     onClick={[Function]}
   >
@@ -159,13 +159,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/8bz9R61oY5o/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Silicon Valley en México
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/7dJFraOqcoQ"
     onClick={[Function]}
   >
@@ -175,13 +175,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/7dJFraOqcoQ/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Why Wizeline? featuring Juan Pablo Villa in Mexico City
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/w-Qwc_XJrWc"
     onClick={[Function]}
   >
@@ -191,13 +191,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/w-Qwc_XJrWc/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline&#39;s 2020 Year in Review
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/rjir_cHTl5w"
     onClick={[Function]}
   >
@@ -207,13 +207,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/rjir_cHTl5w/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Why Wizeline? featuring Hugo Lopez in Mexico City
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/DcFK1x3NHGY"
     onClick={[Function]}
   >
@@ -223,13 +223,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/DcFK1x3NHGY/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Why Wizeline? (We&#39;re Hiring in Mexico!)
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/3BzYWAqZgFw"
     onClick={[Function]}
   >
@@ -239,13 +239,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/3BzYWAqZgFw/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Why Wizeline? featuring Oswaldo Herrera in Mexico City
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/3KVFmT-Tp2w"
     onClick={[Function]}
   >
@@ -255,13 +255,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/3KVFmT-Tp2w/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Caso de Éxito AWS: Wizeline [Spanish]
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/aKuPmY2m1Ro"
     onClick={[Function]}
   >
@@ -271,13 +271,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/aKuPmY2m1Ro/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline&#39;s 2019 Year in Review
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/24sTHUyWhRM"
     onClick={[Function]}
   >
@@ -287,13 +287,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/24sTHUyWhRM/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       [1 of 2] Wizeline CEO shares career lessons from Google
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/IxGc1gSqB3A"
     onClick={[Function]}
   >
@@ -303,13 +303,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/IxGc1gSqB3A/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline Data Engineering featuring Tania Reyes
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/NP1gAnbeNno"
     onClick={[Function]}
   >
@@ -319,13 +319,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/NP1gAnbeNno/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/F6Krwu6lUc8"
     onClick={[Function]}
   >
@@ -335,13 +335,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/F6Krwu6lUc8/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Miriam Godinez | Women in Leadership at Wizeline
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/RFq7gfvhtCk"
     onClick={[Function]}
   >
@@ -351,13 +351,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/RFq7gfvhtCk/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Welcome Back to Wizeline Vietnam | Extended Version
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/E1Vq_A3WKK8"
     onClick={[Function]}
   >
@@ -367,13 +367,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/E1Vq_A3WKK8/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       How does Wizeline work?
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/ZmkslANDz0Q"
     onClick={[Function]}
   >
@@ -383,13 +383,13 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/ZmkslANDz0Q/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       12 Wishes from Wizeline | Happy Holidays 2019
     </div>
   </a>
   <a
-    className="sc-bdnxRM gwlaPc"
+    className="sc-bdnxRM dBdCUa"
     href="/Nss3EmTDD3s"
     onClick={[Function]}
   >
@@ -399,7 +399,7 @@ exports[`RelatedVideoList renders video list correctly 1`] = `
       src="https://i.ytimg.com/vi/Nss3EmTDD3s/mqdefault.jpg"
     />
     <div
-      className="sc-dlnjwi bsqtGq"
+      className="sc-dlnjwi kGsIqP"
     >
       Why Wizeline?
     </div>

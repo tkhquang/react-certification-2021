@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const StyledDetailedVideo = styled.div`
   width: 100%;
@@ -27,9 +27,19 @@ export const StyledVideoIframe = styled.iframe`
 export const StyledVideoTitle = styled.div`
   font-size: 1.5rem;
   font-weight: semi-bold;
-  margin: 0.75rem;
+  ${({ theme }) => {
+    const { spaces } = theme;
+    return css`
+      margin: ${spaces.md};
+    `;
+  }}
 `;
 
 export const StyledVideoDescription = styled.div`
-  margin: 0.75rem;
+  ${({ theme }) => {
+    const { spaces } = theme;
+    return css`
+      margin: ${spaces.md};
+    `;
+  }}
 `;

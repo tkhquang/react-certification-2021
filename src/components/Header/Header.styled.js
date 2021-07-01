@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { Container } from '../UI';
 
@@ -7,8 +7,16 @@ export const StyledHeader = styled.header`
   top: 0;
   left: 0;
   right: 0;
-  height: 72px;
-  background-color: red;
+
+  ${({ theme }) => {
+    const { colors, spaces, shadows } = theme;
+    return css`
+      height: ${spaces.headerHeight};
+      color: ${colors.onSecondary};
+      background-color: ${colors.secondary};
+      box-shadow: ${shadows.lg};
+    `;
+  }}
   z-index: 1;
 `;
 
@@ -17,8 +25,13 @@ export const StyledContainer = styled(Container)`
   height: 100%;
   align-items: center;
   justify-content: space-between;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  ${({ theme }) => {
+    const { spaces } = theme;
+    return css`
+      padding-left: ${spaces.xs};
+      padding-right: ${spaces.xs};
+    `;
+  }}
 `;
 
 export const StyledLeftPanel = styled.div`

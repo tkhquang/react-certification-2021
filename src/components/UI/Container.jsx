@@ -1,7 +1,13 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export default styled.div`
-  max-width: 1440px;
+  ${({ theme }) => {
+    const { spaces } = theme;
+    return css`
+      max-width: ${spaces.container};
+    `;
+  }}
+
   margin-left: auto;
   margin-right: auto;
 `;

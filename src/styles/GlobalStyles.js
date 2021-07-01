@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 import reset from 'styled-reset';
 import { normalize } from 'styled-normalize';
 
@@ -20,6 +20,14 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
+    ${({ theme }) => {
+      const { colors } = theme;
+      return css`
+        color: ${colors.onBackground};
+        background-color: ${colors.background};
+      `;
+    }}
+
   }
 
   #root {
