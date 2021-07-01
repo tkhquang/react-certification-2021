@@ -1,0 +1,54 @@
+-----------------------------|----------|----------|----------|----------|----------------|
+File                         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------------------|----------|----------|----------|----------|----------------|
+ App/                        |        0 |      100 |        0 |        0 |                |
+  App.jsx                    |        0 |      100 |        0 |        0 |             12 |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ DetailedVideo/              |      100 |      100 |      100 |      100 |                |
+  DetailedVideo.jsx          |      100 |      100 |      100 |      100 |                |
+  DetailedVideo.styled.js    |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ Header/                     |      100 |      100 |      100 |      100 |                |
+  Header.jsx                 |      100 |      100 |      100 |      100 |                |
+  Header.styled.js           |      100 |      100 |      100 |      100 |                |
+  HeaderSearch.jsx           |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ Layout/                     |      100 |      100 |      100 |      100 |                |
+  Layout.jsx                 |      100 |      100 |      100 |      100 |                |
+  Layout.styled.js           |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ RelatedVideoList/           |      100 |      100 |      100 |      100 |                |
+  RelatedVideo.jsx           |      100 |      100 |      100 |      100 |                |
+  RelatedVideo.styled.js     |      100 |      100 |      100 |      100 |                |
+  RelatedVideoList.jsx       |      100 |      100 |      100 |      100 |                |
+  RelatedVideoList.styled.js |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ SearchInput/                |      100 |      100 |      100 |      100 |                |
+  SearchIcon.jsx             |      100 |      100 |      100 |      100 |                |
+  SearchInput.jsx            |      100 |      100 |      100 |      100 |                |
+  SearchInput.styled.js      |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ ToggleInput/                |    91.67 |       80 |      100 |    91.67 |                |
+  ToggleInput.jsx            |    85.71 |    66.67 |      100 |    85.71 |             20 |
+  ToggleInput.styled.js      |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ UI/                         |      100 |      100 |      100 |      100 |                |
+  Container.jsx              |      100 |      100 |      100 |      100 |                |
+  Rotate.jsx                 |      100 |      100 |      100 |      100 |                |
+  Spinner.jsx                |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ UserAvatar/                 |      100 |      100 |      100 |      100 |                |
+  UserAvatar.jsx             |      100 |      100 |      100 |      100 |                |
+  UserAvatar.styled.js       |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+ VideoList/                  |      100 |      100 |      100 |      100 |                |
+  Video.jsx                  |      100 |      100 |      100 |      100 |                |
+  Video.styled.js            |      100 |      100 |      100 |      100 |                |
+  VideoList.jsx              |      100 |      100 |      100 |      100 |                |
+  VideoList.styled.js        |      100 |      100 |      100 |      100 |                |
+  index.js                   |      100 |      100 |      100 |      100 |                |
+-----------------------------|----------|----------|----------|----------|----------------|
+All files                    |    97.37 |    91.67 |    96.15 |    97.37 |                |
+-----------------------------|----------|----------|----------|----------|----------------|
+
+Done

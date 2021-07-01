@@ -27,11 +27,14 @@ export default forwardRef(function ToggleInput(
     <StyledToggleInputLabel htmlFor={id}>
       <StyledToggleInput
         type="checkbox"
+        role="switch checkbox"
         id={id}
         name={name}
+        aria-label={name}
         checked={checked}
-        {...rest}
         onChange={onDoChange}
+        aria-checked={checked}
+        {...rest}
         ref={ref}
       />
       <StyledToggleInputSlider checked={checked} />

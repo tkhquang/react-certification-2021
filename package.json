@@ -19,11 +19,21 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "yarn test --coverage --watchAll=false && istanbul report --include coverage/coverage-final.json text > coverage.txt",
     "eject": "react-scripts eject",
     "lint": "eslint ./src --ext .js,.jsx",
     "lint:fix": "eslint ./src --ext .js,.jsx --fix"
   },
+  "jest": {
+    "coverageReporters": [
+      "json", "html"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/components/**/*.{js,jsx}"
+    ]
+  },
   "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -33,9 +43,11 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.0",
     "husky": "^4.2.5",
+    "istanbul": "^0.4.5",
     "lint-staged": "^10.2.13",
     "prettier": "^2.1.1",
-    "pretty-quick": "^3.0.0"
+    "pretty-quick": "^3.0.0",
+    "react-test-renderer": "^17.0.2"
   },
   "browserslist": {
     "production": [

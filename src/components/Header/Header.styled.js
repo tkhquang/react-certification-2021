@@ -9,6 +9,7 @@ export const StyledHeader = styled.header`
   right: 0;
   height: 72px;
   background-color: red;
+  z-index: 1;
 `;
 
 export const StyledContainer = styled(Container)`

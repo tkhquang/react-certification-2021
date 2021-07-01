@@ -1,30 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import { Container } from '../../components/UI';
-
 import VideoList from '../../components/VideoList';
 
-function HomePage() {
-  const [videos, setVideos] = useState([]);
+import { useYoutubeData } from '../../hooks';
 
-  const getData = async () => {
-    try {
-      const response = await fetch('/data.json', {
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
-      });
-      const json = await response.json();
-      setVideos(json.items);
-    } catch (error) {
-      return Promise.reject(error);
-    }
-  };
+function HomePage() {
+  const { videos, search: doSearch } = useYoutubeData();
+  const { pathname, search } = useLocation();
+  const params = new URLSearchParams(search);
+  const q = params.get('q');
 
   useEffect(() => {
-    getData();
-  }, []);
+    if (pathname === '/') {
+      doSearch({ query: q });
+    }
+  }, [doSearch, pathname, q]);
+
+  if (!videos) {
+    return null;
+  }
 
   return (
     <Container>

@@ -2,7 +2,6 @@ import React from 'react';
 
 import ToggleInput from '../ToggleInput';
 import UserAvatar from '../UserAvatar';
-import SearchInput from '../SearchInput';
 
 import {
   StyledHeader,
@@ -10,18 +9,14 @@ import {
   StyledLeftPanel,
   StyledRightPanel,
 } from './Header.styled';
+import HeaderSearch from './HeaderSearch';
 
 export default function Header(props) {
   return (
     <StyledHeader {...props}>
       <StyledContainer>
         <StyledLeftPanel>
-          <SearchInput
-            id="site-search"
-            name="q"
-            aria-label="Search through site content"
-            placeholder="Search..."
-          />
+          <HeaderSearch />
         </StyledLeftPanel>
         <StyledRightPanel>
           <ToggleInput id="theme-toggle" name="theme-toggle" />
