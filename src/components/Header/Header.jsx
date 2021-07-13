@@ -1,6 +1,7 @@
 import React from 'react';
 
 import UserAvatar from '../UserAvatar';
+import { NavigationMenu } from '../NavigationMenu';
 
 import HeaderSearch from './HeaderSearch';
 import HeaderThemeToggle from './HeaderThemeToggle';
@@ -16,6 +17,7 @@ export default function Header(props) {
     <StyledHeader {...props}>
       <StyledContainer>
         <StyledLeftPanel>
+          <NavigationMenu />
           <HeaderSearch />
         </StyledLeftPanel>
         <StyledRightPanel>

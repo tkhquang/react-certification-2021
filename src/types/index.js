@@ -6,3 +6,7 @@ export const THEME = {
 export const YOUTUBE_QUERY = {
   SET: 'YOUTUBE_QUERY/SET',
 };
+
+export const PORTAL = {
+  SET: 'PORTAL/SET',
+};

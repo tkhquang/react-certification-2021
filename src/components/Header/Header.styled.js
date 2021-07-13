@@ -35,8 +35,15 @@ export const StyledContainer = styled(Container)`
 `;
 
 export const StyledLeftPanel = styled.div`
-  display: flex;
+  display: grid;
   align-items: center;
+  grid-auto-flow: column;
+  ${({ theme }) => {
+    const { spaces } = theme;
+    return css`
+      gap: ${spaces.xs};
+    `;
+  }}
 `;
 
 export const StyledRightPanel = styled.div`
