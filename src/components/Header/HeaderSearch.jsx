@@ -1,4 +1,5 @@
 import React, { useContext, useState, useCallback } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import { YoutubeQueryContext } from '../../contexts';
 import { YOUTUBE_QUERY } from '../../types';
@@ -8,6 +9,7 @@ import SearchInput from '../SearchInput';
 export default function HeaderSearch() {
   const { query, dispatch } = useContext(YoutubeQueryContext);
   const [q, setQ] = useState(query);
+  const { push } = useHistory();
 
   const onSearchInputChange = (e) => {
     setQ(e.target.value);
@@ -21,9 +23,10 @@ export default function HeaderSearch() {
           query: q,
         },
       });
+      push('/');
       e.preventDefault();
     },
-    [dispatch, q]
+    [dispatch, push, q]
   );
 
   return (
