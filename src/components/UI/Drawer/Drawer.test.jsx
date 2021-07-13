@@ -1,14 +1,14 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import Spinner from './Spinner';
-import { TestAppContainer } from '../../test';
+import { TestAppContainer } from '../../../test';
+import Drawer from './Drawer';
 
-describe('Spinner', () => {
+describe('Drawer', () => {
   test('renders without crashing', () => {
     render(
       <TestAppContainer>
-        <Spinner />
+        <Drawer>TEST</Drawer>
       </TestAppContainer>
     );
   });

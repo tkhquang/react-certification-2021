@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import Rotate from './Rotate';
 
@@ -10,10 +10,16 @@ const StaticSpinner = styled.div`
   border-top: 5px solid gray;
   border-right: 5px solid gray;
   border-bottom: 5px solid gray;
-  border-left: 5px solid red;
   background: transparent;
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+
+  ${({ theme }) => {
+    const { colors } = theme;
+    return css`
+      border-left: 5px solid ${colors.tone};
+    `;
+  }}
 `;
 
 export default function Spinner({ duration = '1000ms', ...props }) {

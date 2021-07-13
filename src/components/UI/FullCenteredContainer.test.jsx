@@ -1,14 +1,14 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import Spinner from './Spinner';
+import FullCenteredContainer from './FullCenteredContainer';
 import { TestAppContainer } from '../../test';
 
-describe('Spinner', () => {
+describe('Container', () => {
   test('renders without crashing', () => {
     render(
       <TestAppContainer>
-        <Spinner />
+        <FullCenteredContainer />
       </TestAppContainer>
     );
   });

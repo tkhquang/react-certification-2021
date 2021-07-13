@@ -12,6 +12,8 @@ const StyledBackdrop = styled.div`
   transition: background 250ms linear;
   background-color: rgba(0, 0, 0, 0);
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   ${({ visible, hideOnClickOutside }) => {
     if (visible && hideOnClickOutside) {

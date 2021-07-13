@@ -10,14 +10,13 @@ const StyledBackdrop = styled.div`
   bottom: 0;
   right: 0;
   transition: background 250ms linear;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   display: flex;
 
   ${({ visible, hideOnClickOutside }) => {
     if (visible && hideOnClickOutside) {
       return css`
         cursor: pointer;
-        background-color: rgba(0, 0, 0, 0.3);
       `;
     }
     return css`
@@ -26,8 +25,8 @@ const StyledBackdrop = styled.div`
   }}
 `;
 
-const DrawerBackdrop = forwardRef((props, ref) => {
+const MenuBackdrop = forwardRef((props, ref) => {
   return <StyledBackdrop {...props} ref={ref} />;
 });
 
-export default DrawerBackdrop;
+export default MenuBackdrop;
