@@ -1,1 +1,2 @@
-export { default as YoutubeDataContext } from './YoutubeDataContext';
+export { default as YoutubeQueryContext } from './YoutubeQueryContext';
+export { default as ThemeContext } from './ThemeContext';

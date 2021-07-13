@@ -1,12 +1,11 @@
-import { useState, useContext, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 import { youtube } from '../api';
-import { YoutubeDataContext } from '../contexts';
 
 const { searchListByQuery } = youtube;
 
 export default function useYoutubeData() {
-  const { videos, setVideos } = useContext(YoutubeDataContext);
+  const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const doSearch = useCallback(
@@ -26,7 +25,7 @@ export default function useYoutubeData() {
 
   return {
     loading,
-    search: doSearch,
     videos,
+    search: doSearch,
   };
 }
