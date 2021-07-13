@@ -49,16 +49,20 @@ function useDialogState({
         setVisible(false);
       }
     },
-    [hideOnClickOutside, dialogRef]
+    [hideOnClickOutside]
   );
 
   useEffect(() => {
-    window.addEventListener('mousedown', onOutsideClick);
+    if (visible) {
+      window.addEventListener('mousedown', onOutsideClick);
+      return;
+    }
+    window.removeEventListener('mousedown', onOutsideClick);
 
     return () => {
       window.removeEventListener('mousedown', onOutsideClick);
     };
-  }, [onOutsideClick]);
+  }, [onOutsideClick, visible]);
 
   useEffect(() => {
     if (!dialogRef?.current) {

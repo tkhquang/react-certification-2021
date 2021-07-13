@@ -28,8 +28,8 @@ export const StyledContainer = styled(Container)`
   ${({ theme }) => {
     const { spaces } = theme;
     return css`
-      padding-left: ${spaces.xs};
-      padding-right: ${spaces.xs};
+      padding-left: ${spaces.md};
+      padding-right: ${spaces.md};
     `;
   }}
 `;

@@ -15,6 +15,9 @@ export const StyledNavigationLink = styled(Link)`
       color: ${colors.onSurface};
       background-color: ${colors.surface};
       padding: ${spaces.md};
+      & + & {
+        margin-top: ${spaces.md};
+      }
     `;
   }}
 `;

@@ -6,25 +6,25 @@ const { searchListByQuery } = youtube;
 
 export default function useYoutubeData() {
   const [videos, setVideos] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const doSearch = useCallback(
     async (queries) => {
-      setLoading(true);
+      setIsLoading(true);
       try {
         const data = await searchListByQuery(queries);
         setVideos(data);
       } catch (error) {
         return Promise.reject(error);
       } finally {
-        setLoading(false);
+        setIsLoading(false);
       }
     },
     [setVideos]
   );
 
   return {
-    loading,
+    isLoading,
     videos,
     search: doSearch,
   };

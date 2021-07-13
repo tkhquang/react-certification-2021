@@ -7,9 +7,9 @@ import {
   StyledVideoDescription,
 } from './Video.styled';
 
-export default function Video({ title, description, thumbnails, videoId }) {
+export default function Video({ title, description, thumbnails, videoId, basePath }) {
   return (
-    <StyledVideo to={`/${videoId}`}>
+    <StyledVideo to={`${basePath}/${videoId}`}>
       <StyledVideoCover src={thumbnails?.high?.url} alt={title} />
       <StyledVideoTitle>{title}</StyledVideoTitle>
       <StyledVideoDescription>{description}</StyledVideoDescription>

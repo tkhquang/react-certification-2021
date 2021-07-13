@@ -18,7 +18,7 @@ export default function VideoDetailsPage() {
   return (
     <StyledVideoDetails>
       <DetailedVideo id={id} />
-      <RelatedVideoList videos={relatedVideos} />
+      <RelatedVideoList videos={relatedVideos} basePath="" />
     </StyledVideoDetails>
   );
 }

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import { useDialogState } from '../../hooks';
 import { Drawer } from '../UI';
+import { UserContext } from '../../contexts';
 
 import HamburgerIcon from './HamburgerIcon';
 import { StyledNavigationMenu, StyledNavigationLink } from './NavigationMenu.styled';
@@ -9,6 +10,8 @@ import { StyledNavigationMenu, StyledNavigationLink } from './NavigationMenu.sty
 export default function HamburgerMenu() {
   const dialog = useDialogState();
   const { toggle } = dialog;
+  const { user } = useContext(UserContext);
+
   return (
     <>
       <Drawer
@@ -19,9 +22,16 @@ export default function HamburgerMenu() {
         aria-labelledby="Navigation"
         aria-describedby="Navigation menu"
       >
-        <StyledNavigationLink to="/">Home</StyledNavigationLink>
+        <StyledNavigationLink to="/" onClick={toggle}>
+          Home
+        </StyledNavigationLink>
+        {user && (
+          <StyledNavigationLink to="/favorites" onClick={toggle}>
+            Favorites
+          </StyledNavigationLink>
+        )}
       </Drawer>
-      <StyledNavigationMenu onClick={() => toggle()}>
+      <StyledNavigationMenu onClick={toggle}>
         <HamburgerIcon />
       </StyledNavigationMenu>
     </>

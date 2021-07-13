@@ -2,13 +2,13 @@ import React, { useContext, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { YoutubeQueryContext } from '../../contexts';
-import { Container } from '../../components/UI';
+import { FullCenteredContainer, Spinner } from '../../components/UI';
 import { useYoutubeData } from '../../hooks';
 import VideoList from '../../components/VideoList';
 
 function HomePage() {
   const { query } = useContext(YoutubeQueryContext);
-  const { videos, search } = useYoutubeData();
+  const { videos, search, isLoading } = useYoutubeData();
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -22,9 +22,9 @@ function HomePage() {
   }
 
   return (
-    <Container>
-      <VideoList videos={videos} />
-    </Container>
+    <FullCenteredContainer>
+      {isLoading ? <Spinner /> : <VideoList videos={videos} basePath="" />}
+    </FullCenteredContainer>
   );
 }
 

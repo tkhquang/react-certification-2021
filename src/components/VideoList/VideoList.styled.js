@@ -7,6 +7,7 @@ export const StyledVideoList = styled.section`
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 1rem;
   margin: 1rem;
+  align-self: flex-start;
 
   ${up(
     'xs',

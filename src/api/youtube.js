@@ -23,6 +23,7 @@ const searchListById = async ({ id }) => {
   try {
     const response = await fetch(
       `${API}/videos?part=snippet&type=video&id=${id}&key=${process.env.REACT_APP_YOUTUBE_DATA_API_KEY}`,
+      // `/data.json`,
       {
         headers: {
           'Content-Type': 'application/json',
@@ -41,6 +42,7 @@ const searchRelatedListById = async ({ id }) => {
   try {
     const response = await fetch(
       `${API}/search?part=snippet&type=video&relatedToVideoId=${id}&key=${process.env.REACT_APP_YOUTUBE_DATA_API_KEY}`,
+      // `/data.json`,
       {
         headers: {
           'Content-Type': 'application/json',

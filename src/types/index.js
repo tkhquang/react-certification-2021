@@ -10,3 +10,13 @@ export const YOUTUBE_QUERY = {
 export const PORTAL = {
   SET: 'PORTAL/SET',
 };
+
+export const USER = {
+  SET: 'USER/SET',
+};
+
+export const FAVORITES = {
+  SET: 'FAVORITES/SET',
+  ADD: 'FAVORITES/ADD',
+  REMOVE: 'FAVORITES/REMOVE',
+};
