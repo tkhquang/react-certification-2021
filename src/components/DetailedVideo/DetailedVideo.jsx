@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext, useCallback, useMemo } from 'react';
 
-import { FavoritesContext } from '../../contexts';
+import { FavoritesContext, UserContext } from '../../contexts';
 import { FAVORITES } from '../../types';
 import { searchListById } from '../../api/youtube';
 
@@ -21,6 +21,7 @@ const DetailedVideo = ({ id }) => {
       return (item.id?.videoId || item.id) === id;
     });
   }, [favorites, id]);
+  const { user } = useContext(UserContext);
 
   useEffect(() => {
     searchListById({ id }).then((videos) => {
@@ -62,15 +63,16 @@ const DetailedVideo = ({ id }) => {
       {video && (
         <>
           <StyledVideoTitle>{video.snippet.title}</StyledVideoTitle>
-          {isInFavorites ? (
-            <StyledFavoriteButton onClick={removeFromFavorites}>
-              Remove from Favorites
-            </StyledFavoriteButton>
-          ) : (
-            <StyledFavoriteButton onClick={addToFavorites}>
-              Add to Favorites
-            </StyledFavoriteButton>
-          )}
+          {user &&
+            (isInFavorites ? (
+              <StyledFavoriteButton onClick={removeFromFavorites}>
+                Remove from Favorites
+              </StyledFavoriteButton>
+            ) : (
+              <StyledFavoriteButton onClick={addToFavorites}>
+                Add to Favorites
+              </StyledFavoriteButton>
+            ))}
           <StyledVideoDescription>{video.snippet.description}</StyledVideoDescription>
         </>
       )}
