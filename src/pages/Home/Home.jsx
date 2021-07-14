@@ -1,29 +1,41 @@
 import React, { useContext, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 
 import { YoutubeQueryContext } from '../../contexts';
 import { FullCenteredContainer, Spinner } from '../../components/UI';
-import { useYoutubeData } from '../../hooks';
+import { useRequest } from '../../hooks';
+import { searchListByQuery } from '../../api/youtube';
 import VideoList from '../../components/VideoList';
 
 function HomePage() {
   const { query } = useContext(YoutubeQueryContext);
-  const { videos, search, isLoading } = useYoutubeData();
-  const { pathname } = useLocation();
+
+  const { data: videos, error, isLoading, fetchData } = useRequest({
+    request: searchListByQuery,
+  });
 
   useEffect(() => {
-    if (pathname === '/') {
-      search({ query });
-    }
-  }, [search, query, pathname]);
+    fetchData({ query });
+  }, [query, fetchData]);
 
-  if (!videos) {
-    return null;
+  if (error) {
+    return (
+      <FullCenteredContainer>
+        <span>Oops, something went wrong!</span>
+      </FullCenteredContainer>
+    );
+  }
+
+  if (isLoading) {
+    return (
+      <FullCenteredContainer>
+        <Spinner />
+      </FullCenteredContainer>
+    );
   }
 
   return (
     <FullCenteredContainer>
-      {isLoading ? <Spinner /> : <VideoList videos={videos} basePath="" />}
+      {videos ? <VideoList videos={videos} basePath="" /> : null}
     </FullCenteredContainer>
   );
 }
