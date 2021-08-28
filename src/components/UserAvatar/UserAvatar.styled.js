@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const StyledUserAvatar = styled.div`
+  position: relative;
   height: 2.5rem;
   width: 2.5rem;
   background-color: white;
@@ -9,6 +10,7 @@ export const StyledUserAvatar = styled.div`
   background-size: cover;
   border-radius: 50%;
   margin-left: 0.5rem;
+  cursor: pointer;
 
   ${({ src }) => {
     return css`

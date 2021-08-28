@@ -35,6 +35,15 @@ export const StyledVideoTitle = styled.div`
   }}
 `;
 
+export const StyledFavoriteButton = styled.button`
+  ${({ theme }) => {
+    const { spaces } = theme;
+    return css`
+      margin-left: ${spaces.md};
+    `;
+  }}
+`;
+
 export const StyledVideoDescription = styled.div`
   ${({ theme }) => {
     const { spaces } = theme;

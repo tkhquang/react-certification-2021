@@ -1,22 +1,30 @@
 ----------------------------------|----------|----------|----------|----------|----------------|
 File                              |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
 ----------------------------------|----------|----------|----------|----------|----------------|
- components/App/                  |        0 |      100 |        0 |        0 |                |
-  App.jsx                         |        0 |      100 |        0 |        0 |             12 |
+ components/App/                  |    77.78 |       75 |       50 |    77.78 |                |
+  App.jsx                         |        0 |      100 |        0 |        0 |             23 |
+  PrivateRoute.jsx                |     87.5 |       75 |      100 |     87.5 |             11 |
   index.js                        |      100 |      100 |      100 |      100 |                |
- components/DetailedVideo/        |      100 |      100 |      100 |      100 |                |
-  DetailedVideo.jsx               |      100 |      100 |      100 |      100 |                |
+ components/DetailedVideo/        |    88.46 |       50 |       70 |    88.46 |                |
+  DetailedVideo.jsx               |    78.57 |       50 |    57.14 |    78.57 |       21,32,41 |
   DetailedVideo.styled.js         |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
- components/Header/               |    95.24 |      100 |     87.5 |    95.24 |                |
+ components/Header/               |     74.6 |       50 |    66.67 |     74.6 |                |
   Header.jsx                      |      100 |      100 |      100 |      100 |                |
   Header.styled.js                |      100 |      100 |      100 |      100 |                |
   HeaderSearch.jsx                |      100 |      100 |      100 |      100 |                |
   HeaderThemeToggle.jsx           |       75 |      100 |       50 |       75 |             12 |
+  HeaderUserManagement.jsx        |    55.88 |       50 |     37.5 |    55.88 |... ,56,118,124 |
+  HeaderUserManagement.styled.js  |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
  components/Layout/               |      100 |      100 |      100 |      100 |                |
   Layout.jsx                      |      100 |      100 |      100 |      100 |                |
   Layout.styled.js                |      100 |      100 |      100 |      100 |                |
+  index.js                        |      100 |      100 |      100 |      100 |                |
+ components/NavigationMenu/       |      100 |       50 |      100 |      100 |                |
+  HamburgerIcon.jsx               |      100 |      100 |      100 |      100 |                |
+  NavigationMenu.jsx              |      100 |       50 |      100 |      100 |                |
+  NavigationMenu.styled.js        |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
  components/RelatedVideoList/     |      100 |      100 |      100 |      100 |                |
   RelatedVideo.jsx                |      100 |      100 |      100 |      100 |                |
@@ -29,34 +37,64 @@ File                              |  % Stmts | % Branch |  % Funcs |  % Lines |U
   SearchInput.jsx                 |      100 |      100 |      100 |      100 |                |
   SearchInput.styled.js           |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
+ components/TextInput/            |      100 |      100 |      100 |      100 |                |
+  TextInput.jsx                   |      100 |      100 |      100 |      100 |                |
+  TextInput.styled.js             |      100 |      100 |      100 |      100 |                |
+  index.js                        |      100 |      100 |      100 |      100 |                |
  components/ToggleInput/          |    92.86 |       80 |      100 |    92.86 |                |
   ToggleInput.jsx                 |    88.89 |    66.67 |      100 |    88.89 |             20 |
   ToggleInput.styled.js           |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
  components/UI/                   |      100 |      100 |      100 |      100 |                |
   Container.jsx                   |      100 |      100 |      100 |      100 |                |
+  FullCenteredContainer.js        |      100 |      100 |      100 |      100 |                |
   Rotate.jsx                      |      100 |      100 |      100 |      100 |                |
   Spinner.jsx                     |      100 |      100 |      100 |      100 |                |
+  index.js                        |      100 |      100 |      100 |      100 |                |
+ components/UI/Drawer/            |    91.67 |       50 |      100 |    91.67 |                |
+  Drawer.jsx                      |      100 |      100 |      100 |      100 |                |
+  DrawerBackdrop.jsx              |    83.33 |       50 |      100 |    83.33 |             18 |
+  index.js                        |      100 |      100 |      100 |      100 |                |
+ components/UI/Menu/              |      100 |      100 |      100 |      100 |                |
+  Menu.jsx                        |      100 |      100 |      100 |      100 |                |
+  MenuBackdrop.jsx                |      100 |      100 |      100 |      100 |                |
+  index.js                        |      100 |      100 |      100 |      100 |                |
+ components/UI/Modal/             |     96.3 |       50 |      100 |    96.15 |                |
+  Modal.jsx                       |      100 |      100 |      100 |      100 |                |
+  Modal.styled.js                 |      100 |      100 |      100 |      100 |                |
+  ModalBackdrop.jsx               |    83.33 |       50 |      100 |    83.33 |             20 |
+  ModalContent.jsx                |      100 |      100 |      100 |      100 |                |
+  ModalContent.styled.js          |      100 |      100 |      100 |      100 |                |
+  ModalFooter.jsx                 |      100 |      100 |      100 |      100 |                |
+  ModalFooter.styled.js           |      100 |      100 |      100 |      100 |                |
+  ModalTitle.jsx                  |      100 |      100 |      100 |      100 |                |
+  ModalTitle.styled.js            |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
  components/UserAvatar/           |      100 |      100 |      100 |      100 |                |
   UserAvatar.jsx                  |      100 |      100 |      100 |      100 |                |
   UserAvatar.styled.js            |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
- components/VideoList/            |      100 |      100 |      100 |      100 |                |
+ components/VideoList/            |    93.75 |       80 |      100 |    93.75 |                |
   Video.jsx                       |      100 |      100 |      100 |      100 |                |
   Video.styled.js                 |      100 |      100 |      100 |      100 |                |
-  VideoList.jsx                   |      100 |      100 |      100 |      100 |                |
+  VideoList.jsx                   |       75 |       80 |      100 |       75 |              8 |
   VideoList.styled.js             |      100 |      100 |      100 |      100 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
- hooks/                           |        0 |      100 |        0 |        0 |                |
+ hooks/                           |     87.5 |    72.73 |     91.3 |    86.84 |                |
   index.js                        |      100 |      100 |      100 |      100 |                |
-  useYoutubeData.js               |        0 |      100 |        0 |        0 |... 16,18,20,26 |
- providers/                       |    83.33 |    46.67 |      100 |    83.33 |                |
-  ThemeContextProvider.jsx        |    81.82 |    46.15 |      100 |    81.82 |    23,24,30,51 |
+  useDialogState.js               |    85.45 |    70.83 |     87.5 |    84.31 |... 49,82,83,84 |
+  useForkRef.js                   |    90.91 |    77.78 |      100 |    90.91 |             10 |
+  useMenuState.js                 |      100 |      100 |      100 |      100 |                |
+  useYoutubeData.js               |    90.91 |      100 |      100 |    90.91 |             18 |
+ providers/                       |    90.91 |     69.7 |      100 |    90.91 |                |
+  FavoritesContextProvider.jsx    |    95.24 |       90 |      100 |    95.24 |             50 |
+  PortalContextProvider.jsx       |    91.67 |       75 |      100 |    91.67 |             22 |
+  ThemeContextProvider.jsx        |    90.91 |    61.54 |      100 |    90.91 |          30,51 |
+  UserContextProvider.jsx         |    85.71 |       50 |      100 |    85.71 |          25,37 |
   YoutubeQueryContextProvider.jsx |     87.5 |       50 |      100 |     87.5 |             22 |
   index.js                        |      100 |      100 |      100 |      100 |                |
 ----------------------------------|----------|----------|----------|----------|----------------|
-All files                         |    86.33 |    66.67 |    91.67 |    86.33 |                |
+All files                         |    89.18 |    70.94 |       90 |    89.03 |                |
 ----------------------------------|----------|----------|----------|----------|----------------|
 
 Done

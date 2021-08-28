@@ -1,9 +1,10 @@
 import React from 'react';
 
-import UserAvatar from '../UserAvatar';
+import { NavigationMenu } from '../NavigationMenu';
 
 import HeaderSearch from './HeaderSearch';
 import HeaderThemeToggle from './HeaderThemeToggle';
+import HeaderUserManagement from './HeaderUserManagement';
 import {
   StyledHeader,
   StyledContainer,
@@ -16,11 +17,12 @@ export default function Header(props) {
     <StyledHeader {...props}>
       <StyledContainer>
         <StyledLeftPanel>
+          <NavigationMenu />
           <HeaderSearch />
         </StyledLeftPanel>
         <StyledRightPanel>
           <HeaderThemeToggle />
-          <UserAvatar />
+          <HeaderUserManagement />
         </StyledRightPanel>
       </StyledContainer>
     </StyledHeader>

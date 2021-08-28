@@ -28,15 +28,22 @@ export const StyledContainer = styled(Container)`
   ${({ theme }) => {
     const { spaces } = theme;
     return css`
-      padding-left: ${spaces.xs};
-      padding-right: ${spaces.xs};
+      padding-left: ${spaces.md};
+      padding-right: ${spaces.md};
     `;
   }}
 `;
 
 export const StyledLeftPanel = styled.div`
-  display: flex;
+  display: grid;
   align-items: center;
+  grid-auto-flow: column;
+  ${({ theme }) => {
+    const { spaces } = theme;
+    return css`
+      gap: ${spaces.xs};
+    `;
+  }}
 `;
 
 export const StyledRightPanel = styled.div`
